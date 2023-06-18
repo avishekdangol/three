@@ -1,0 +1,25 @@
+.animation-box:hover .rotate {
+  animation: rotate 0.4s;
+}
+
+.animation-box-ds:hover .rotate {
+  animation: rotate 0.4s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  75% {
+    transform: rotate(450deg);
+  }
+  100% {
+    transform: rotate(540deg);
+  }
+}
