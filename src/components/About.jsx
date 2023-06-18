@@ -30,7 +30,7 @@ const About = () => {
                 scale: 1,
                 speed: 450,
               }}
-              className="glow-card py-5 px-12 rounded w-[250px] w-full min-h-[200px] flex flex-col justify-center items-center animation-box"
+              className="glow-card py-5 px-12 rounded w-[250px] min-h-[200px] flex flex-col justify-center items-center animation-box"
             >
               <FontAwesomeIcon icon={`fa ${service.icon}`} size="3x" className="drop-shadow rotate" />
               <h3 className="mt-4 text-white font-bold">{service.title}</h3>
