@@ -9,8 +9,15 @@
 .glow-card:hover {
   box-shadow: 2px 2px 7px 2px #915eff !important;
 }
+.vertical-timeline-element-date {
+  display: none !important;
+}
 
 .drop-shadow {
   -webkit-filter: drop-shadow(5px 5px 25px #915eff) !important;
   filter: drop-shadow(5px 5px 25px #915eff) !important;
+}
+.drop-shadow-black {
+  -webkit-filter: drop-shadow(2px 2px 2px #333) !important;
+  filter: drop-shadow(2px 2px 2px #333) !important;
 }
