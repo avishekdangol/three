@@ -3,12 +3,12 @@ import { Email, Info, Work } from "@mui/icons-material"
 
 const navMenu = [
   {
-    path: '/about',
+    path: 'about',
     name: 'About',
     icon: Info,
   },
   {
-    path: '/work',
+    path: 'work',
     name: 'Work',
     icon: Work,
   },

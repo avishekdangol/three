@@ -13,7 +13,7 @@ import experiences from "../utils/experiences"
 
 const Experience = () => {
   return (
-    <>
+    <div id="work" className="mt-10">
       <motion.div variants={textVariant()}>
         <h1 className="text-3xl font-bold">Work Experience</h1>
       </motion.div>
@@ -53,7 +53,7 @@ const Experience = () => {
           }
         </VerticalTimeline>
       </div>
-    </>
+    </div>
   )
 }
 
