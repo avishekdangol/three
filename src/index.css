@@ -18,3 +18,11 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.MuiFilledInput-root {
+  border-bottom: 1px solid #915eff !important;
+}
+
+body {
+  scroll-behavior: smooth;
+}

@@ -13,7 +13,7 @@ const navMenu = [
     icon: Work,
   },
   {
-    path: '/contact',
+    path: 'contact',
     name: 'Contact',
     icon: Email,
   }

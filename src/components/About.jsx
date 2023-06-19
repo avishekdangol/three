@@ -42,6 +42,4 @@ const About = () => {
   )
 }
 
-const wrapperdAbout = SectionWrapper(About, 'about')
-
-export default wrapperdAbout
+export default SectionWrapper(About, 'about')
