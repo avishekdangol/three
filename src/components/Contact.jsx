@@ -47,10 +47,10 @@ const Contact = () => {
             console.log(values)
             setTimeout(() => {
               setSubmitting(false)
+              values.name = ''
+              values.email = ''
+              values.message = ''
             }, 500)
-          }}
-          onChange={e => {
-            console.log(e.target.name)
           }}
         >
           {({
@@ -140,8 +140,9 @@ const Contact = () => {
                 className="float-right"
                 variant="contained"
                 onClick={handleSubmit}
+                disabled={isSubmitting}
               >
-                {isSubmitting ? 'Sending' : 'Send'}
+                {isSubmitting ? 'Sending ...' : 'Send'}
               </Button>
             </form>
           )}

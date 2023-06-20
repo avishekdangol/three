@@ -22,6 +22,10 @@
 .MuiFilledInput-root {
   border-bottom: 1px solid #915eff !important;
 }
+.css-sghohy-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+  color: #f1f1f1 !important;
+  background-color: #a1a1a1 !important;
+}
 
 body {
   scroll-behavior: smooth;
