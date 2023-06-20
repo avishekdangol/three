@@ -21,6 +21,7 @@
     "@mui/material": "^5.13.5",
     "@react-three/drei": "^9.74.15",
     "@react-three/fiber": "^8.13.3",
+    "formik": "^2.4.2",
     "framer-motion": "^10.12.16",
     "gh-pages": "^5.0.0",
     "maath": "^0.6.0",
